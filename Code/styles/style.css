@@ -1,0 +1,79 @@
+body {
+	margin: auto;
+	padding: 0px;
+	background-image: url("../image/wall.gif");
+	font-family: "メイリオ", "ヒラギノ角ゴ Pro W3";
+}
+strong {
+	color:red;
+}
+p {
+	margin: 20px auto;
+	width: 1200px;
+	text-align: left;
+	font-size: 14px;
+	color: DarkBlue;
+	line-height: 1.6em;
+}
+tr {
+	height: 60px;
+}
+td {
+	width: 120px;
+	vertical-align: middle;
+	border: inset 1px DarkGray;
+}
+th {
+	width: 720px;
+}
+div {
+	margin: auto;
+	padding: 10px;
+}
+
+img {
+	border: solid 5px WhiteSmoke;
+}
+
+div#wrapper {
+	width: 1200px;
+	background-color: white;
+}
+div#header {
+	padding: 0px;
+	line-height: 0px;
+}
+div#header img {
+	border-style: none;
+}
+div#article {
+	padding: 0px;
+	clear: both;
+}
+div#article h1 {
+	margin: auto;
+	padding: 0px 10px;
+	color: White;
+	background-color: #FF6600;
+	border-radius: 4px;
+}
+div#article p {
+	color: DimGray;
+}
+div#article img {
+	border: solid 5px WhiteSmoke;
+}
+div#article th, div#article td {
+	height: 50px;
+	width: 90px;
+	background-color: Gainsboro;
+	text-align: center;
+	vertical-align: middle;
+}
+div#footer {
+	clear: both;
+	color: White;
+	background-color: #6E00BE;
+	text-align: center;
+	border-radius: 4px;
+}
